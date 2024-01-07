@@ -10,6 +10,27 @@
   max-width: 1320px;
   margin: 50px auto;
 }
+.location {
+  color: #f00;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.btn-primary {
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  margin-top: 40px;
+}
+.image{
+    margin: 6px;
+}
+/* heading started */
 .heading {
   background-image: linear-gradient(
       to bottom,
@@ -110,4 +131,41 @@
 }
 .party-img {
   padding: 60px 130px;
+}
+/* location section started */
+.location-section {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 15px;
+  height: 480px;
+  text-align: center;
+  padding-top: 100px;
+}
+/* location sectio done and comming soon section is coming soon */
+
+/* my portfolio section started */
+.portfolio-description H4 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-description h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+.portfolio-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 900px;
+  margin-bottom: 20px;
+}
+.portfolio-img{
+    margin: 30px 0;
 }
