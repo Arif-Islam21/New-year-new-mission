@@ -27,8 +27,23 @@
   border: none;
   margin-top: 40px;
 }
-.image{
-    margin: 6px;
+.image {
+  margin: 6px;
+}
+.text-primary {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 900px;
+  margin-bottom: 20px;
+}
+.h2-primary {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
 }
 /* heading started */
 .heading {
@@ -78,13 +93,6 @@
   font-weight: 500;
   margin-top: 40px;
 }
-.category h3 {
-  color: #070211;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-  margin: 20px 0;
-}
 .category img {
   width: 800px;
   height: 500px;
@@ -115,10 +123,8 @@
 }
 .party-description p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
   margin: 30px 0;
+  width: 650px;
 }
 .party-description button {
   color: #fff;
@@ -153,19 +159,23 @@
   font-weight: 500;
 }
 .portfolio-description h2 {
-  color: #070211;
-  font-size: 48px;
-  font-weight: 900;
-  margin: 20px 0;
+  text-align: start;
 }
-.portfolio-description p {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  width: 900px;
-  margin-bottom: 20px;
+.portfolio-img {
+  margin: 30px 0;
 }
-.portfolio-img{
-    margin: 30px 0;
+/* newsletter section started */
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 200px;
+}
+.newsletter img{
+    margin-left: 350px;
+    width: 150px;
+
+}
+.newsletter p {
+  text-align: center;
+  margin: 0 auto;
 }
