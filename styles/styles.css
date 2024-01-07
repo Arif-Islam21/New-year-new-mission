@@ -176,6 +176,8 @@
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   padding: 80px 200px;
+  display: flex;
+  justify-content: center;
 }
 .newsletter img {
   margin-left: 350px;
@@ -185,6 +187,30 @@
   text-align: center;
   margin: 0 auto;
 }
+.reach-us {
+  width: 648px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.newsletter-input {
+  background-color: #fff;
+  border-radius: 50px 0 0 50px;
+  height: 72px;
+  border: none;
+  padding: 25px;
+}
+.newsletter-btn {
+  border-radius: 0 50px 50px 0;
+  height: 72px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  background: #f00;
+  border: none;
+}
 /* almost done only footer section and bonus tasks remaining */
 footer {
   background: #070211;
@@ -192,24 +218,24 @@ footer {
   padding: 120px 140px;
   margin-top: 120px;
 }
-.footer-description{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
+.footer-description {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
-hr{
-    background: rgba(255, 255, 255, 0.15);
-    color: #fff;
-    height: 1px;
+hr {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  height: 1px;
 }
 .social-icon {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0;
 }
-.copyright{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 0;
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
 }
