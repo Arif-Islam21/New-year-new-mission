@@ -1,3 +1,71 @@
-*{
-    background-color: red;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* multi useable components */
+.container {
+  max-width: 1320px;
+  margin: 50px auto;
+}
+.heading {
+  background-image: linear-gradient(
+      to bottom,
+      #070211 0%,
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../resources/Banner Image.png");
+  height: 600px;
+  border-radius: 16px;
+}
+.heading h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 170px;
+}
+.heading h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  width: 630px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/* heading section done */
+/* category section started */
+.category {
+  max-width: 1600px;
+  margin: 50px auto;
+}
+.category h2 {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.category p {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.category h3 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.category img {
+  width: 800px;
+  height: 500px;
+  margin-left: 200px;
 }
