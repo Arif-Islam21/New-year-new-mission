@@ -200,6 +200,10 @@
   margin: 60px 0;
 }
 /* Holiday offer section started */
+.function-section{
+  margin: 100px auto;
+  margin-bottom: 200px;
+}
 .function-section h4{
   color: #070211;
   text-align: center;
