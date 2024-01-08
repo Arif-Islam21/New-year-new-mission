@@ -52,6 +52,11 @@
   line-height: 40px;
   width: 380px;
 }
+.h4-primary {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
 /* heading started */
 .heading {
   background-image: linear-gradient(
@@ -158,13 +163,47 @@
   padding-top: 100px;
 }
 /* location sectio done and comming soon section is coming soon */
-
+/* bonus section started */
+.my-offers{
+  display: flex;
+  justify-content: space-between;
+}
+.offer-section h2{
+  text-align: start;
+}
+.offer-section p{
+  width: 400px;
+}
+.new-year-section p{
+  width: 250px;
+}
+.image-section{
+  background-color: red;
+  display: flex;
+  border-radius: 50%;
+  height: 460px;
+  width: 460px;
+  align-items: center;
+  justify-content: center;
+}
+.bg-white{
+  background-color: white;
+  height: 440px;
+  width: 440px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-section, .new-year-section{
+  margin: 60px 0;
+}
 /* my portfolio section started */
-.portfolio-description H4 {
+/* .portfolio-description H4 {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
-}
+} */
 .portfolio-description h2 {
   text-align: start;
 }
